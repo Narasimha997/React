@@ -1,8 +1,9 @@
 import Hello  from "./hello"
 import Message from "./Message"
 import Message1 from "./Message-1"
-import Details from "./new"
+// import Details from "./new"
 import Information from "./functiontoclass"
+import Messages from "./message-2"
 function App(){
     return <div>
         <h1>Gm</h1>
@@ -13,9 +14,11 @@ function App(){
     <hr/>
     <Message1/>
     <hr/>
-    <Details/>
+    {/* <Details/> */}
     <hr/>
     <Information/>
+    <hr/>
+    <Messages/>
     </div>
 }
 export default App
