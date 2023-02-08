@@ -1,6 +1,6 @@
 import React from 'react'
 class Message1 extends React.Component{
-    msg="Hell";
+    msg="Incoming";
     render(){
         return <div>
             <hr/>
