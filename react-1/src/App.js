@@ -6,7 +6,8 @@ import React from "react"
 // import Clock from "./clock/digital"
 // import Cranck from "./component/componentdidmount"
 // import Clock1 from "./clock/digital-1"
-import Bind from "./bind/binding"
+// import Bind from "./bind/binding"
+import Bind1 from "./bind/binding-1"
 function App(){
         return <div>
           {/* <Clip/> */}
@@ -15,7 +16,8 @@ function App(){
           {/* <Clock/> */}
           {/* <Cranck/> */}
           {/* <Clock1/> */}
-          <Bind/>
+          {/* <Bind/> */}
+          <Bind1/>
     </div>
 }
 export default App
